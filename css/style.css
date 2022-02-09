@@ -1,0 +1,74 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    background-color: rgb(235, 227, 255);
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.container {
+    max-width: 600px;
+}
+
+#todo-form {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+input {
+    border-bottom: 2px solid #ae9df771 !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+input:focus {
+    box-shadow: 0 17px 20px -21px #4d37acf6 !important;
+    border-color: #4d37ac71 !important;
+}
+
+#add-button {
+    background-color: #4d37ac1c;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: block;
+    line-height: 1.7;
+    transition: 0.5s ease;
+}
+
+#add-button:hover {
+    background-color: #4d37ac52;
+    color: #fff;
+}
+
+table {
+    color: rgb(50, 39, 112) !important;
+}
+
+thead tr {
+    background-color: #d9cff69e;
+}
+
+th {
+    padding-left: 20px !important;
+}
+
+table td {
+    vertical-align: middle;
+    padding-left: 20px !important;
+}
+
+ion-icon {
+    font-size: 20px;
+}
+
+.btn {
+    padding: 7px;
+    line-height: 0;
+}
